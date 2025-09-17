@@ -70,7 +70,7 @@ git config --global user.email "your.email@example.com"
 
 1. **Create and switch to a new branch**:
    ```bash
-   git checkout -b feature/my-project
+   git checkout -b <name>/my-project
    ```
 
 2. **Create a simple project file**:
@@ -101,7 +101,7 @@ git config --global user.email "your.email@example.com"
 
 1. **Switch to your feature branch**:
    ```bash
-   git checkout feature/my-project
+   git checkout <name>/my-project
    ```
 
 2. **Add a new file to your project**:
@@ -128,19 +128,19 @@ git config --global user.email "your.email@example.com"
 
 **Goal**: Learn how to merge branches
 
-1. **Switch to main branch**:
+1. **Switch to AIM branch**:
    ```bash
-   git checkout main
+   git checkout -b <name>/AIM
    ```
 
 2. **Merge your feature branch**:
    ```bash
-   git merge feature/my-project
+   git merge <name>/my-project 
    ```
 
 3. **Delete the feature branch (optional)**:
    ```bash
-   git branch -d feature/my-project
+   git branch -d <name>/my-project
    ```
 
 4. **View updated log**:
@@ -152,14 +152,14 @@ git config --global user.email "your.email@example.com"
 
 **Goal**: Learn to push changes to GitHub
 
-1. **Push your changes to GitHub**:
+1. **Push your changes to GitHub (if you didnt fork then ignore)**:
    ```bash
    git push origin main
    ```
 
 2. **Create a new branch for collaboration**:
    ```bash
-   git checkout -b feature/collaboration
+   git checkout -b <name>/collaboration
    ```
 
 3. **Add a collaboration file**:
@@ -171,7 +171,7 @@ git config --global user.email "your.email@example.com"
 
 4. **Push the new branch**:
    ```bash
-   git push origin feature/collaboration
+   git push origin <name>/collaboration
    ```
 
 ### Exercise 6: Simulating Merge Conflicts 💥
